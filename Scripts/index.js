@@ -1,0 +1,1 @@
+let data=document.querySelector("form").value;
