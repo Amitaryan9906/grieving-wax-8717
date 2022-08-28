@@ -4,84 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="Styles\index.css">
+    <title>Products</title>
+    <link rel="stylesheet" href="Styles\all.css">
 
 </head>
 <body>
-<div id="navbar">
-    <a href="./index.html">
-    <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0" alt="">
-    </a>
-    <div>
-    
-
-       <a href="download.html">
-        <img src="https://icons-for-free.com/iconfiles/png/512/device+instrument+iphone+mobile+smart+phone+icon-1320165659007599488.png" alt="">
-        <p>Download App</p>
-       </a>
-     
-
-       <a href="#" onclick="toggle()">
-        <img src="https://cdn.icon-icons.com/icons2/2506/PNG/512/user_icon_150670.png" alt="">
-        <p>Hello,Log in</p>
-       </a>
-       
-       <a href="offer.html">
-        <img src="https://cdn-icons-png.flaticon.com/512/272/272535.png" alt="">
-        <p>Offers</p>
-
-       </a>
-       <a href="cart.html">
-       <img src="http://cdn.onlinewebfonts.com/svg/img_379628.png" alt=""> 
-        <p>Cart</p>       
-       </a>
-
-    </div>
-</div>
-
-<div class="container" id="blur">
-    <div id="main">
-        <div>
-            <h2>What are you looking for?</h2>
-             <a href=""><p>UPLOAD NOW</p></a>
+    <div id="navbar">
+        <a href="./index.html">
+        <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0" alt="">
+        </a>
+        <div id="main">
+            <form id="search">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png" alt="">
+                <input type="text" placeholder="Search" class="search" >
+                <button>Search</button>
+            </form>    
         </div>
-        <form id="search">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png" alt="">
-            <input type="text" placeholder="Search" class="search" >
-            <button>Search</button>
-        </form>
-     
-        
-    </div>
-    <div class="discover">
-      <!-- all discover items will be here -->
-    </div>
-    <div class="slide">
-    <!-- sliding window will be here -->
-    </div>
-    <h2>Offer Just for You</h2>
-    <div class="for-you">
-    <a href="offer.html"><img src="https://cms-contents.pharmeasy.in/offer/cc89dcadac4-fridayiconoffer.jpg?dim=1440x0" alt=""><p>Flat 27% OFF + up to Rs.500 cashback</p></a>
-    <a href="offer.html"><img src="https://cms-contents.pharmeasy.in/offer/b47f482f486-LogoHSD.jpg?dim=1440x0" alt=""><p>Flat 27% OFF + up to Rs.500 cashback</p></a>
-    <a href="#" onclick="toggle()"><img src="Images\lock.png" alt=""><p>Log im to view more</p></a>
+        <div>    
+           <a href="#" onclick="toggle()">
+            <img src="https://cdn.icon-icons.com/icons2/2506/PNG/512/user_icon_150670.png" alt="">
+            <p>Hello,Log in</p>
+           </a>
+           
+           <a href="offer.html">
+            <img src="https://cdn-icons-png.flaticon.com/512/272/272535.png" alt="">
+            <p>Offers</p>
     
-    </div>
-    <h2>Shop by Categories</h2>
-    <div class="categories">
-        <!-- here will be category section -->
-    </div>
+           </a>
+           <a href="cart.html">
+           <img src="http://cdn.onlinewebfonts.com/svg/img_379628.png" alt=""> 
+            <p>Cart</p>       
+           </a>
     
-    <h2>New Launches</h2>
-    <p>New wellness range just for you</p>
-    <div class="new_launch">
-        <!-- here will be new launch section -->
+        </div>
     </div>
-    <h2>Trending Near You</h2>
-    <p>Popular in your city</p>
-    <div class="trending">
-        <!-- here will be trend section -->
+    <h2>Add to Cart</h2>
+    <div class="view" id="cont">
+        <!-- here will be all data for add cart -->
     </div>
+    <hr>
+    <h2>recomended items</h2>
+<div class="view rec" >
+    <!--  here will be recomended items -->
+</div>
     <div id="footer">
         <div>
             <div>
@@ -177,39 +142,14 @@
 
     </div>
     <form id="form">
-        <p onclick="login()">click here to logIn</p>  
-        <input type="text" placeholder="Enter your email" id="email" />
-        <input type="number" placeholder="Enter your phone number" id="phone" />
-    <input type="text" placeholder="Create your password" id="password" />
-    <input type="submit" value="Send OTP" class="btn" id="send"/>
+        <p>Quick Login / Register</p>  
 
+    <input type="number" placeholder="Enter your phone number" id="phone" />
+    <input type="submit" value="Send OTP" />
 </form>
-
-    <div><p>By clicking continue, you agree with our  </p> <a href=""> Privacy Policy</a>
-
+    <div>        <p>By clicking continue, you agree with our  </p> <a href=""> Privacy Policy</a>
     </div>
 </div>
-
-<div id="container2">
-    <div class="nav">
-        <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
-
-    </div>
-    <div id="form2">
-        <p>Quick Login </p>  
-        <input type="email" placeholder="Enter your email" id="user_email" />
-    <input type="password" placeholder="Enter  your password" id="user_password" />
-    
-    <button  class=" btn2" id="lgbtn">Log In</button>
-
-
-
-    </div>
-    <div><p>By clicking continue, you agree with our  </p> <a href=""> Privacy Policy</a>
-    </div>
-</div>
-
 </body>
 </html>
-<script src="Scripts\index.js"></script>
-
+<script src="Scripts\products.js"></script>

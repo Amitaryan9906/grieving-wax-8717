@@ -22,12 +22,12 @@
 
         </div>
         <div>
-           <a href="signup.html">
+           <a href="#" onclick="toggle()">
             <img src="https://cdn.icon-icons.com/icons2/2506/PNG/512/user_icon_150670.png" alt="">
             <p>Hello,Log in</p>
            </a>
            
-           <a href="">
+           <a href="offer.html">
             <img src="https://flaticons.net/icon.php?slug_category=shopping&slug_icon=discount" alt="">
             <p>Offers</p>
     
@@ -38,58 +38,70 @@
     
         </div>
     </div>
-    
-<div id="content">
-    <h2>Cart</h2>
-
-<div>
-    <div>
-        <img src="https://flaticons.net/icon.php?slug_category=shopping&slug_icon=discount" alt="">
-        <p>Flat 15% Off</p>
-        <img src="https://previews.123rf.com/images/fokaspokas/fokaspokas1803/fokaspokas180300415/96962867-protection-success-simple-icon-white-icon-with-shadow-on-transparent-background.jpg" alt="">
-        <p>1 Lakh+ Products</p>
-        <p>Easy Returns</p>
-    </div>
-    <h3>Search for Medicines / Healthcare Products</h3>
-    <div>
-         <button>Select Pincode <img src="https://icons-for-free.com/iconfiles/png/512/down+icon-1320166862644492688.png"></button>
-        <input type="text" placeholder="e.g Ecosprin, Telma or Colgate">
-        <button><img src="https://toppng.com/uploads/preview/free-icons-png-instagram-search-icon-white-11562954322qzcobg6iwo.png" alt=""></button>
-    </div>
-</div>
-</div>
-<hr>
-<div id="article">
-    <div>
-       <img src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100" alt="">
-       <h4>1 Lakh+ Products</h4>
-       <p>We maintain strict quality controls on all our partner retailers, so that you always get standard quality products</p>
-    </div>
-    <div>
-       <img src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" alt="">
-       <h4>secure Payments</h4>
-       <p>100% secure and trusted payment protection</p>
-    </div>
-    <div>   
-        <img src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" alt="">
-       <h4>Easy Returns</h4>
-       <p>We have a new and dynamic return window policy for medicines and healthcare items. Refer FAQs section for more details</p>
-    </div>
-   </div>
-   <hr>
-
-   <div id="show">
-    <div>
-        <img src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg" alt="">
-    </div>
-    <div>
-        <p>Download the App for Free</p>
+    <div class="view" id="cont"> 
+        <h2>Cart</h2>
+        <div class="content">
+           
+        
         <div>
-            <a href="https://play.google.com/store/games"><img src="https://www.freepnglogos.com/uploads/play-store-logo-png/google-play-store-logo-keyword-the-amazon-insider-podcast-6.png" alt=""></a>
-            <a href="https://www.freepnglogos.com/uploads/app-store-logo-png/download-on-the-app-store-logo-png-23.png"><img src="https://www.freepnglogos.com/uploads/app-store-logo-png/download-on-the-app-store-logo-png-23.png" alt=""></a>
+            <div>
+                <img src="https://flaticons.net/icon.php?slug_category=shopping&slug_icon=discount" alt="">
+                <p>Flat 15% Off</p>
+                <img src="https://previews.123rf.com/images/fokaspokas/fokaspokas1803/fokaspokas180300415/96962867-protection-success-simple-icon-white-icon-with-shadow-on-transparent-background.jpg" alt="">
+                <p>1 Lakh+ Products</p>
+                <p>Easy Returns</p>
+            </div>
+            <h3>Search for Medicines / Healthcare Products</h3>
+            <div>
+                 <button>Select Pincode <img src="https://icons-for-free.com/iconfiles/png/512/down+icon-1320166862644492688.png"></button>
+                <input type="text" placeholder="e.g Ecosprin, Telma or Colgate">
+                <button><img src="https://toppng.com/uploads/preview/free-icons-png-instagram-search-icon-white-11562954322qzcobg6iwo.png" alt=""></button>
+            </div>
         </div>
+        <div>
+            <p>Total items:  <span class="total"></span></p>
+            <p>Total price: $ <span class="total-price"></span></p>
+             <button class="checkout">Checkout</button>
+        </div>
+        </div>
+        <div id="body">
+            <!--  All the cart data will be here -->
+            
+        </div>
+        <hr>
+        <div class="article">
+            <div>
+               <img src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100" alt="">
+               <h4>1 Lakh+ Products</h4>
+               <p>We maintain strict quality controls on all our partner retailers, so that you always get standard quality products</p>
+            </div>
+            <div>
+               <img src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" alt="">
+               <h4>secure Payments</h4>
+               <p>100% secure and trusted payment protection</p>
+            </div>
+            <div>   
+                <img src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" alt="">
+               <h4>Easy Returns</h4>
+               <p>We have a new and dynamic return window policy for medicines and healthcare items. Refer FAQs section for more details</p>
+            </div>
+           </div>
+           <hr>
+        
+           <div class="show">
+            <div>
+                <img src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg" alt="">
+            </div>
+            <div>
+                <p>Download the App for Free</p>
+                <div>
+                    <a href="https://play.google.com/store/games"><img src="https://www.freepnglogos.com/uploads/play-store-logo-png/google-play-store-logo-keyword-the-amazon-insider-podcast-6.png" alt=""></a>
+                    <a href="https://www.freepnglogos.com/uploads/app-store-logo-png/download-on-the-app-store-logo-png-23.png"><img src="https://www.freepnglogos.com/uploads/app-store-logo-png/download-on-the-app-store-logo-png-23.png" alt=""></a>
+                </div>
+            </div>
+           </div>
     </div>
-   </div>
+
 
 
 <div id="footer">
@@ -181,7 +193,21 @@
      
     </div>
 </div>
+<div id="container">
+    <div class="nav">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+
+    </div>
+    <form id="form">
+        <p>Quick Login / Register</p>  
+
+    <input type="number" placeholder="Enter your phone number" id="phone" />
+    <input type="submit" value="Send OTP" />
+</form>
+    <div>        <p>By clicking continue, you agree with our  </p> <a href=""> Privacy Policy</a>
+    </div>
+</div>
 </body>
 </html>
-<script src="Scripts\index.js"></script>
+<script src="Scripts\cart.js"></script>
 
